@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		E4C8D51A23866BF100441F82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C8D51823866BF100441F82 /* Main.storyboard */; };
 		E4C8D51C23866C0000441F82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C8D51B23866C0000441F82 /* Assets.xcassets */; };
 		E4C8D51F23866C0000441F82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4C8D51D23866C0000441F82 /* LaunchScreen.storyboard */; };
+		E4C8D52723867C3F00441F82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4C8D52623867C3F00441F82 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		E4C8D51B23866C0000441F82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C8D51E23866C0000441F82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4C8D52023866C0000441F82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4C8D52623867C3F00441F82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				23E6DE3798840D2BC6C25440 /* Pods-Workbench iOS App.debug.xcconfig */,
 				AF57AAF06ED20FB3A2CD740D /* Pods-Workbench iOS App.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -80,6 +81,7 @@
 				E4C8D51B23866C0000441F82 /* Assets.xcassets */,
 				E4C8D51D23866C0000441F82 /* LaunchScreen.storyboard */,
 				E4C8D52023866C0000441F82 /* Info.plist */,
+				E4C8D52623867C3F00441F82 /* GoogleService-Info.plist */,
 			);
 			path = "Workbench iOS App";
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4C8D51F23866C0000441F82 /* LaunchScreen.storyboard in Resources */,
+				E4C8D52723867C3F00441F82 /* GoogleService-Info.plist in Resources */,
 				E4C8D51C23866C0000441F82 /* Assets.xcassets in Resources */,
 				E4C8D51A23866BF100441F82 /* Main.storyboard in Resources */,
 			);
